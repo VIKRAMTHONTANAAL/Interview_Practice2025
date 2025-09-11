@@ -8,7 +8,7 @@ public class NumberOfWords {
         int count=0;
 
         StringTokenizer tokenizer=new StringTokenizer(s," ");
-        while(tokenizer.hasMoreTokens()==true){
+        while(tokenizer.hasMoreTokens()){
             String token= tokenizer.nextToken();
             System.out.println(token);
             count++;

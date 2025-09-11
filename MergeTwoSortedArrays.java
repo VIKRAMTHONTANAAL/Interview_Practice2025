@@ -10,12 +10,12 @@ public class MergeTwoSortedArrays {
             if(a[j]<b[k]){
                 newarr[i]=a[j];
                 j++;
-                i++;
+
             }else{
                 newarr[i]=b[k];
                 k++;
-                i++;
             }
+            i++;
         }
         while (j<a.length){
             newarr[i]=a[j];

@@ -8,7 +8,7 @@ public class ReverseTheWordsInASentence {
 
         StringTokenizer token=new StringTokenizer(s," ");
 
-        while(token.hasMoreTokens()==true){
+        while(token.hasMoreTokens()){
 
             String word=token.nextToken();
 //            System.out.print(word+" ");
